@@ -17,7 +17,7 @@ public class WheelOfFortune {
 				int nextChoose = (int) (Math.random() * 2);
 				chosenSubset += subset.get(nextChoose);
 			}
-			else if(chosenCategory.equals("Movies")) { 
+			if(chosenCategory.equals("Movies")) { 
 				subset.add("titanic");
 				subset.add("gravity");
 				int nextChoose = (int) (Math.random() * 2);
